@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guild Wars 2 Wiki</string>
+    <string name="what_do_you_want_to_look_up">What do you want to look up?</string>
+    <string name="search">Search</string>
+    <string name="gw2_image">gw2 image</string>
+    <string name="e_g_ascended_armor">E.g. Ascended Armor</string>
+</resources>
