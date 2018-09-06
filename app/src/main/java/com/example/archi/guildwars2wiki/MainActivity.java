@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private void goToUrl(String text){
         String reformat = text;
         reformat = reformat.replaceAll(" ", "_").toLowerCase(); // replaces spaces with underscores
+        reformat = reformat.replaceAll("'", "%27s").toLowerCase(); // replaces apostrophes with %27s
         String web = "https://wiki.guildwars2.com/wiki/" + reformat;
         Uri Url = Uri.parse(web);
         Intent launchBroswer = new Intent(Intent.ACTION_VIEW, Url);
